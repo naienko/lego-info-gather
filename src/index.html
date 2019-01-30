@@ -1,25 +1,60 @@
-<!doctype html> 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Nashville Software School</title>
-  <link rel="stylesheet" href="./main.css">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nashville Software School</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
 
-</head>
+  <body>
+    <nav></nav>
 
-<body>
-  <nav></nav>
-
-  <header></header>
-
-  <article>
     <header></header>
-    <section></section>
+
+    <article>
+      <form>
+        <fieldset>
+          <label for="lego__creator">Creator:</label>
+          <input
+            type="text"
+            id="lego__creator"
+            name="lego__creator"
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <label for="lego__color">Color:</label>
+          <input
+            type="text"
+            id="lego__color"
+            name="lego__color"
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="lego__shape">Shape:</label>
+          <input
+            type="text"
+            id="lego__shape"
+            name="lego__shape"
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <label for="lego__creation">Creation:</label>
+          <input
+            type="text"
+            id="lego__creation"
+            name="lego__creation"
+            autofocus
+          />
+		</fieldset>
+		<button class="btn lego__save">Save Lego Creation</button>
+      </form>
+    </article>
+
     <footer></footer>
-  </article>
 
-  <footer></footer>
-
-  <script src="./main.js"></script>
-</body>
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
